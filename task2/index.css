@@ -3,8 +3,6 @@
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
-body {
-}
 
 main{
     display: flex;
@@ -13,12 +11,17 @@ main{
     align-items: center;
 }
 
-.nav {
+nav {
   background-color: white;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
+  width: 100%;
+  max-width: 120rem;
+  padding: 2rem 0 0 0;
+
 }
+
 
 .heading {
   display: flex;
@@ -29,13 +32,15 @@ main{
 }
 
 .searchBar input {
-  width: 25vw;
-  height: 4vh;
+  width: 60vh;
   border-radius: 3rem;
+  outline: none;
+  padding: 1rem 3rem;
 }
 
 .links {
-  display: fles;
+  display: flex;
+font-size: 1.3rem;
 }
 
 .links ul {
@@ -69,8 +74,8 @@ max-width: 120rem;
 }
 
 .card {
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   margin: 2rem;
 }
 .card img {
@@ -130,4 +135,32 @@ max-width: 120rem;
     rgba(255, 126, 31, 1) 0%,
     rgba(70, 133, 252, 1) 100%
   );
+}
+
+footer {
+    /* border-top:2px solid gray ; */
+    padding-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 120rem;
+    padding: 0 2rem 2rem 2rem;
+}
+
+footer p {
+    font-size: 1.3rem;
+    color: grey;
+    margin: 0 1rem 0 1rem;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+hr {
+    width: 100%;
+    margin: 2rem 0;
 }
