@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  padding: 1vw;
+  background-color: white;
+  width: fit-content;
+}
+
+.searchBar input {
+  width: 25vw;
+  height: 4vh;
+  border-radius: 3rem;
+}
+
+.links {
+  display: fles;
+}
+
+.links ul {
+  display: flex;
+}
+
+.links ul li {
+  display: flex;
+  text-decoration: aqua;
+  color: white;
+  padding: 1vw;
+}
+
+.links ul li a {
+  display: flex;
+  text-decoration: none;
+  color: grey;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  margin-right: 2vw;
+  height: 90vh;
+  display: flex;
+  justify-content: space-between;
+max-width: 120rem;
+  align-items: center;
+  text-align: center;
+}
+
+.card {
+  width: 400px;
+  height: 400px;
+  margin: 2rem;
+}
+.card img {
+  height: 460px;
+  z-index: 2;
+}
+
+.card1 img {
+  position: relative;
+  right: 160px;
+}
+
+.card3 img {
+    position: relative;
+    right: 120px;
+}
+
+.card4 img {
+    height: 300px;
+    position: relative;
+    top: 20px;
+}
+
+.card1 {
+  background: rgb(6, 91, 240);
+  background: linear-gradient(
+    135deg,
+    rgba(6, 91, 240, 1) 0%,
+    rgba(186, 46, 252, 1) 100%
+  );
+  justify-content: center;
+  align-items: center;
+}
+
+.card2 {
+  background: rgb(238, 89, 33);
+  background: linear-gradient(
+    135deg,
+    rgba(238, 89, 33, 1) 0%,
+    rgba(252, 203, 46, 1) 100%
+  );
+}
+
+.card3 {
+  background: rgb(63, 141, 251);
+  background: linear-gradient(
+    138deg,
+    rgba(63, 141, 251, 1) 0%,
+    rgba(252, 70, 167, 1) 100%
+  );
+}
+
+.card4 {
+  background: rgb(255, 126, 31);
+  background: linear-gradient(
+    138deg,
+    rgba(255, 126, 31, 1) 0%,
+    rgba(70, 133, 252, 1) 100%
+  );
+}

@@ -39,8 +39,7 @@ nav img {
 
 .content {
   display: flex;
-  justify-content: space-between;+  
-  align-items: space-evnly;
+  justify-content: space-between;
   height: 100%;
 }
 
